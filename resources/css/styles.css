@@ -1,12 +1,140 @@
+/* Universal Styles */
+    html {
+        font-size: 16px;
+        background-color: white;
+    }
 
+    li {
+        list-style: none;
+        display: inline;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+
+    img {
+        overflow: hidden;
+      }
+
+/* Heading */
+    header {
+        height: 4rem;
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        z-index: 100;
+        border-bottom: solid 1px #c6c1c1;
+        background-color: white;
+    }
+
+    nav li {
+        padding: auto 1rem;
+    }
+
+/* Banner */
+    
+    .banner {
+        background-color: lightgray;
+        position: relative;
+        /* top: 4rem; To offset for fixed header. */
+    }
+
+    button .start-here {
+        background-color: dimgray;
+        padding: .5rem auto .5rem auto;
+        color: white;
+        border: none;
+
+    }
+/* Main Content */
+/* Start Learning */
+/* Thesis Exhbit */
+/* Footer */
+
+
+/*Desktop View */
 @media only screen and (min-width: 481px) {
     .mobile {
       display: none;
     }
+
+    /* Heading */
+    nav.desktop { 
+        display: flex;
+        align-items: center;
+    }
+
+    .logo.container {
+        display: flex;
+        align-items: center;
+    }
+    /* div.logo {
+        display: flexbox;
+        height: 2rem;
+        flex-direction: row;
+    } */
+
+    nav ul {
+        /* justify-content: flex-end; */
+        margin-right: 1.5rem;
+    } 
+
+    /* Banner */
+    /* Main Content */
+    /* Start Learning */
+    /* Thesis Exhbit */
+    /* Footer */
 }
 
+/* Mobile View */
 @media only screen and (max-width: 480px) {
     .desktop {
       display: none;
     }
+
+    /* Heading */
+    header nav.mobile { 
+        display: flex;
+        justify-content: space-around;
+        
+        height: auto;
+        vertical-align: middle;
+        max-height: 2rem;
+    }
+    
+    header nav.mobile ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: middle;
+        width: 100%;
+        padding: auto auto auto 0!important;
+    }
+
+    header .mobile {
+        display: flex;
+        width: 100%;
+      }
+    
+      nav li {
+        
+        align-items: center;
+      }
+
+    /* Banner */
+    button.start-here {
+        background-color: silver;
+        font-weight: 700;
+    }
+
+    /* Main Content */
+    /* Start Learning */
+    /* Thesis Exhbit */
+    /* Footer */
 }
+
