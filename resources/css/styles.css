@@ -49,9 +49,7 @@
         padding-top: 2rem;
     }
 
-    .special {
-        background-color: lightgray;
-    }
+
 
 /* Heading */
     header {
@@ -73,11 +71,6 @@
         display: flex;
     }
 
-    .banner .content {
-        width: 30%;
-        margin: auto 1.5rem;
-    }
-
     .content button.start-here {
         background-color: dimgray;
         color: white;
@@ -87,6 +80,7 @@
         padding-bottom: .5rem;
         font-size: 2rem;
     }
+
 /* Main Content */
 .content-secondary a {
     color: blue;
@@ -107,6 +101,10 @@
         padding-right: 1.5rem;
     }
 
+    .special {
+        background-color: lightgray;
+    }
+
     /* Heading */
     nav.desktop { 
         display: flex;
@@ -118,6 +116,7 @@
         display: flex;
         align-items: center;
         justify-content: left;
+        padding-left: 1.5rem;
     }
 
     nav.desktop ul {
@@ -134,6 +133,11 @@
     }
 
     /* Banner */
+    .banner .content {
+        width: 30%;
+        margin: auto 1.5rem;
+    }
+    
     .banner img {
         float: left;
         max-width: 60%;
@@ -363,21 +367,109 @@
         padding-left: 0;
     }
 
-      nav li {
+    nav li {
         height: 2rem;
         align-items: center;
-      }
+    }
 
-    /* Banner */
+    /* Banner */   
+    .banner {
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .banner img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        padding: 0%;
+    }
+
+    .banner .content {
+        padding: 2rem 1rem;
+    }
+
+    .content h1 {
+        margin: 0%;
+        padding-bottom: .5rem;
+    }
+    
     .content button.start-here {
-        background-color: silver;
+        background-color: rgb(143, 142, 142);
         font-weight: 700;
     }
 
     /* Main Content */
+    .main-secondary {
+        display: block;
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .main-secondary img.mobile {
+        max-width: 100%;
+    }
+
+    .main-secondary .details {
+        padding: 2rem 1rem 2rem 1rem;
+        align-content: center;
+    }
+
+    .main-secondary .details h3, p {
+        margin: 0%;
+        padding-bottom: .75rem;
+    }
 
     /* Start Learning */
-    /* Thesis Exhbit */
-    /* Footer */
-}
+    .learning {
+        display: block;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 
+    .learning h2 {
+        text-align: center;
+        margin: 0rem;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+    }
+
+    .learning .mobile button {
+        background-color: lightgray;
+        color: black;
+        border: none;
+        width: 100%;
+        padding: 1rem 1rem 1.5rem 1rem;
+        font-size: 2rem;
+        text-align: left;
+        margin-bottom: .5rem;
+    }
+
+    /* Thesis Exhbit */
+    .thesis-header {
+        text-align: center;
+        margin: 0rem;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+    }
+
+    .thesis video {
+        max-width: 100%;
+        border: 1px solid darkgray;
+    }
+    
+    .thesis .video {
+        padding-bottom: 1.5rem;
+    }
+
+    .thesis .card {
+        display: none;
+    }
+
+    /* Footer */
+    footer {
+        width: 100%;
+        padding: 1rem;
+    }
+}
