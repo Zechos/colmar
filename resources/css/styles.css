@@ -199,6 +199,42 @@
 
     /* Start Learning */
 
+    .learning {
+        background-color: lightgray;
+        padding: 2rem;
+    }
+
+    .learning h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .learning-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 2rem;
+        column-gap: 2rem;
+        margin: 2rem 2.5rem;
+        max-width:max-content;
+    }
+    .learning .card {
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .card-content {
+        padding: 1rem;
+    }
+
+    .learning-content img {
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .card h3, p {
+        margin: .5rem;
+    }
 
     /* Thesis Exhbit */
     div.thesis {
@@ -206,7 +242,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        
     }
 
     section.video {
@@ -227,6 +262,9 @@
 
 
     /* Footer */
+    footer {
+        border-top: 1px solid lightgray;
+    }
     }
 
 /* Mobile View */
