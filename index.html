@@ -22,50 +22,64 @@
         <nav class="desktop">
             <div class="logo container">
                 <a href="#"><img src="./resources/images/ic-logo.svg"></a>
-                <h3><span class="bold">COLMAR</span>ACADEMY</h3>
+                <h3>COLMAR<span class="light">ACADEMY</span></h3>
             </div>
-           <ul>     
+            <ul>     
                 <li><a href="#">On campus</a></li>
                 <li><a href="#">Online for companies</a></li>
-                <li><a href="#">Sign in</a></li>
+                <li class="end"><a href="#">Sign in</a></li>
             </ul>
         </nav>
     </header>
 <!--Banner Section-->
     <section class="banner">
         <img src="./resources/images/banner.jpg" alt="Top down view of three students reading books or taking writen notes at a wooden picnic table">
-        <h1>Learn soemthing new every day</h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-        <button class="start-here">Start here</button>
+        <div class="content">
+            <h1>Learn something new everyday</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <button class="start-here">Start here</button>
+        </div>
     </section>
 <!--Main Content Section-->
-    <section class="desktop">
-        <img src="./resources/images/information-main.jpg" alt="Top down view of three students reading books or taking writen notes at a wooden picnic table">
-        <h2>It doesn't hurt to keep practicing</h2>
-        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-        <p>Emanuel, Sr Strategist at Hiring.com</p>
-    </section>
-    <section>
-        <img class="desktop" src="resources/images/information-orientation.jpg" alt="Topdown view of students walking on a brick path with long shadows">
-        <img class="mobile" src="resources/images/information-orientation-mobile.jpg" alt="Topdown view of students walking on a brick path with long shadows">
-        <h3>Orientation date</h3>
-        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-        <p><a href="#">Read more</a></p>
-    </section>
-    <section>
-        <img class="desktop" src="resources/images/information-campus.jpg" alt="Study room with wooden walls, low hanging lights, students at a long table and a large map of South America on the wall">
-        <img class="mobile" src="resources/images/information-campus-mobile.jpg" alt="Study room with wooden walls, low hanging lights, students at a long table and a large map of South America on the wall">
-        <h3>Our campus</h3>
-        <p>Find which campus is close by you</p>
-        <p><a href="#">Read more</a></p>
-    </section>
-    <section>
-        <img class="desktop" src="resources/images/information-guest-lecture.jpg" alt="Older man with round glasses, a blue hat and a neatly trimmed salt and pepper beard">
-        <img class="mobile" src="resources/images/information-guest-lecture-mobile.jpg" alt="Older man with round glasses, a blue hat and a neatly trimmed salt and pepper beard">
-        <h3>Our guest lecture</h3>
-        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-        <p><a href="#">Read more</a></p>
-    </section>
+    <div class="main-content">
+        <div class="main-primary">
+            <section class="desktop">
+                <img src="./resources/images/information-main.jpg" alt="Man in a white sweater reading a book outside">
+                <h2>It doesn't hurt to keep practicing</h2>
+                <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+                <p class="credit">Emanuel, Sr Strategist at Hiring.com</p>
+            </section>
+        </div>
+        <div class="main-secondary">
+            <section class="content-secondary">
+                <img class="desktop" src="resources/images/information-orientation.jpg" alt="Topdown view of students walking on a brick path with long shadows">
+                <img class="mobile" src="resources/images/information-orientation-mobile.jpg" alt="Topdown view of students walking on a brick path with long shadows">
+                <div class="details">
+                    <h3>Orientation date</h3>
+                    <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                    <p><a href="#">Read more</a></p>
+                </div>    
+            </section>
+            <section class="content-secondary">
+                <img class="desktop" src="resources/images/information-campus.jpg" alt="Study room with wooden walls, low hanging lights, students at a long table and a large map of South America on the wall">
+                <img class="mobile" src="resources/images/information-campus-mobile.jpg" alt="Study room with wooden walls, low hanging lights, students at a long table and a large map of South America on the wall">
+                <div class="details">
+                    <h3>Our campus</h3>
+                    <p>Find which campus is close by you</p>
+                    <p><a href="#">Read more</a></p>
+                </div>
+            </section>
+            <section class="content-secondary special">
+                <img class="desktop" src="resources/images/information-guest-lecture.jpg" alt="Older man with round glasses, a blue hat and a neatly trimmed salt and pepper beard">
+                <img class="mobile" src="resources/images/information-guest-lecture-mobile.jpg" alt="Older man with round glasses, a blue hat and a neatly trimmed salt and pepper beard">
+                <div class="details">
+                    <h3>Our guest lecture</h3>
+                    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                    <p><a href="#">Read more</a></p>
+             </div>
+            </section>
+        </div>
+    </div>
 <!--Start Learning Section-->
     <section>
         <h2>Start learning</h2>
@@ -117,22 +131,26 @@
         </section>
     </section>
 <!--Thesis Exhbit Section-->
-    <section>
+    <div class="thesis">
         <h2>Thesis exhibit</h2>
-        <video controls src="resources/videos/thesis.mp4">Video not supported</video>
-        <h3>Reimagine urban</h3>
-        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-    </section>
-    <section class="desktop">
-        <img src="resources/images/thesis-fisma.jpg" alt="Topdown view of a busy desk workspace">
-        <h3>Fisma: Design and Prototype</h3>
-        <p>Designer showcase of new prototype product</p>        
-    </section>
-    <section class="desktop">
-        <img src="resources/images/thesis-now-and-then.jpg" alt="New York City skyline on a cloudy day">
-        <h3>Now and then</h3>
-        <p>Research study about New York</p>
-    </section>
+        <section class="video">
+            <video controls src="resources/videos/thesis.mp4">Video not supported</video>
+            <h3>Reimagine urban</h3>
+            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+        </section>
+        <div class="thesis-secondary">
+            <section class="desktop">
+                <img src="resources/images/thesis-fisma.jpg" alt="Topdown view of a busy desk workspace">
+                <h3>Fisma: Design and Prototype</h3>
+                <p>Designer showcase of new prototype product</p>        
+            </section>
+            <section class="desktop">
+                <img src="resources/images/thesis-now-and-then.jpg" alt="New York City skyline on a cloudy day">
+                <h3>Now and then</h3>
+                <p>Research study about New York</p>
+            </section>
+        </div>
+    </div>
 </body>
 
 <footer>
