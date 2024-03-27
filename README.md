@@ -1,0 +1,2 @@
+This is my capstone project for CodeCademy's "Build a Website with HTML, CSS, and GitHub Pages" course. Using skills learned in the course I created this responsive landing page for a new school using a wireframe document and assets provided by CodeCademy.
+Skills utilized for this project include CSS, HTML, color theory, typography, website layout and positioning, responsive design, accessibility, and version control using git via the command line.
